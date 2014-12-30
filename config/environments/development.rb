@@ -37,4 +37,6 @@ Rails.application.configure do
   # Required for heroku
   # config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+ # Paperclip.options[:command_path] = "/opt/ImageMagick/bin/convert"
 end
