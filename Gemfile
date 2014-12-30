@@ -13,6 +13,7 @@ gem 'autoprefixer-rails'
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+
 group :development, :test do |variable|
 	gem 'sqlite3'
 end
@@ -20,6 +21,7 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '~> 1.20.0'
 end
 
 group :doc do
